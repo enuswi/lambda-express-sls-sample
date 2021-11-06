@@ -19,6 +19,10 @@ app.get('/hoge', (req, res) => {
   res.send('Hoge')
 })
 
+app.get('/fuga', (req, res) => {
+  res.send('Fuga')
+})
+
 const port = '8080'
 app.listen(port, () => {
   console.log(`app start listen port ${port}`)
